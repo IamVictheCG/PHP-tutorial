@@ -26,33 +26,24 @@
 
 $posts = ['Post One', 'Post Two', 'Post Three'];
 
-for ($i=0; $i < count($posts); $i++) { 
-    echo $posts[$i];
+// for ($i=0; $i < count($posts); $i++) { 
+//     echo $posts[$i];
+// }
+
+foreach ($posts as $i => $post) {
+    echo $i.'_'.$post.'<br>';
 }
-
-// $numbers = [1, 2, 3, 4, 5];
-
-// foreach ($numbers as $x) {
-//   echo "Number: $x <br>";
-// }
-
-// Use the indexes within the loop
-
-
-// foreach ($posts as $index => $post) {
-//   echo "${index} - ${post} <br>";
-// }
 
 // // Use the keys within the loop for an associative array
 
-// $person = [
-//   'first_name' => 'Brad',
-//   'last_name' => 'Traversy',
-//   'email' => 'brad@gmail.com',
-// ];
+$person = [
+  'first_name' => 'Brad',
+  'last_name' => 'Traversy',
+  'email' => 'brad@gmail.com',
+];
 
-// // Get Keys
-// foreach ($person as $key => $val) {
-//   echo "${key} - ${val} <br>";
-// }
+// Get Keys
+foreach ($person as $key => $val) {
+  echo "${key} - ${val} <br>";
+}
 ?>
