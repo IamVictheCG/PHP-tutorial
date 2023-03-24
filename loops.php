@@ -30,9 +30,9 @@ $posts = ['Post One', 'Post Two', 'Post Three'];
 //     echo $posts[$i];
 // }
 
-foreach ($posts as $i => $post) {
-    echo $i.'_'.$post.'<br>';
-}
+// foreach ($posts as $i => $post) {
+//     echo $i.'_'.$post.'<br>';
+// }
 
 // // Use the keys within the loop for an associative array
 
@@ -44,6 +44,6 @@ $person = [
 
 // Get Keys
 foreach ($person as $key => $val) {
-  echo "${key} - ${val} <br>";
+  echo "$key - $val <br>";
 }
 ?>
