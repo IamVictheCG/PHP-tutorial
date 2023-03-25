@@ -46,4 +46,3 @@ $person = [
 foreach ($person as $key => $val) {
   echo "$key - $val <br>";
 }
-?>
