@@ -1,32 +1,32 @@
 <?php
-$fruits = ['Orange', 'Apple', 'Pear'];
+// $fruits = ['Orange', 'Apple', 'Pear'];
 
-//Get Array length
-echo count($fruits);
+// //Get Array length
+// echo count($fruits);
 
-//search array
-var_dump(in_array('Apple',$fruits));
+// //search array
+// var_dump(in_array('Apple',$fruits));
 
-$fruits[] = 'Grape';
-print_r($fruits);
-array_push($fruits, "Mango");
-array_unshift($fruits, 'kiwi'); // Adds to the beginning
+// $fruits[] = 'Grape';
+// print_r($fruits);
+// array_push($fruits, "Mango");
+// array_unshift($fruits, 'kiwi'); // Adds to the beginning
 
-// Remove from array
-array_pop($fruits); // Removes last
-array_shift($fruits); // Removes first
-// Remove specific element
-unset($fruits[2]);
+// // Remove from array
+// array_pop($fruits); // Removes last
+// array_shift($fruits); // Removes first
+// // Remove specific element
+// unset($fruits[2]);
 
-// Split into chunks of 2
-$chunkedArray = array_chunk($fruits, 2);
-var_dump($chunkedArray);
+// // Split into chunks of 2
+// $chunkedArray = array_chunk($fruits, 2);
+// var_dump($chunkedArray);
 
 // Concatenate arrays
 $arr1 = [1, 2, 3];
 $arr2 = [4, 5, 6];
 $arr3 = array_merge($arr1, $arr2);
-var_dump($arr3);
+print_r($arr3);
 $arr4 = [...$arr1, ...$arr2]; // Use Spread
 print_r($arr4);
 
