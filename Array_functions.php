@@ -23,12 +23,12 @@ $chunkedArray = array_chunk($fruits, 2);
 var_dump($chunkedArray);
 
 // Concatenate arrays
-// $arr1 = [1, 2, 3];
-// $arr2 = [4, 5, 6];
-// $arr3 = array_merge($arr1, $arr2);
-// var_dump($arr3);
-// $arr4 = [...$arr1, ...$arr2]; // Use Spread
-// var_dump($arr4);
+$arr1 = [1, 2, 3];
+$arr2 = [4, 5, 6];
+$arr3 = array_merge($arr1, $arr2);
+var_dump($arr3);
+$arr4 = [...$arr1, ...$arr2]; // Use Spread
+print_r($arr4);
 
 // // Combine arrays (Keys & values)
 // $a = ['green', 'red', 'yellow'];
