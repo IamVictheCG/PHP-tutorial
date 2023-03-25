@@ -23,17 +23,18 @@
 // var_dump($chunkedArray);
 
 // Concatenate arrays
-$arr1 = [1, 2, 3];
-$arr2 = [4, 5, 6];
-$arr3 = array_merge($arr1, $arr2);
-print_r($arr3);
-$arr4 = [...$arr1, ...$arr2]; // Use Spread
-print_r($arr4);
+// $arr1 = [1, 2, 3];
+// $arr2 = [4, 5, 6];
+// $arr3 = array_merge($arr1, $arr2);
+// print_r($arr3);
+// $arr4 = [...$arr1, ...$arr2]; // Use Spread
+// print_r($arr4);
 
-// // Combine arrays (Keys & values)
-// $a = ['green', 'red', 'yellow'];
-// $b = ['avocado', 'apple', 'banana'];
-// $c = array_combine($a, $b);
+// Combine arrays (Keys & values)
+$a = ['green', 'red', 'yellow'];
+$b = ['avocado', 'apple', 'banana'];
+$c = array_combine($a, $b);
+print_r($c);
 
 // // Array of keys
 // $keys = array_keys($c);
