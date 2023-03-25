@@ -28,8 +28,7 @@
     // echo $num;
 
     //Arrow function
-    $subtract = fn($x,$Y) => $x-$y;
-
-    echo $subtract(10, 6);
+    $subtract = fn($x,$y) => $x-$y;
+    echo $subtract(10,6);
 
 ?>
