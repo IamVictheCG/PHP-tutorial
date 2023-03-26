@@ -49,7 +49,7 @@ $c = array_combine($a, $b);
 
 // Map through array and create a new one
 $newNumbers = array_map(function ($number) {
-  return "Number ${number}";
+  return "Number $number";
 }, $numbers);
 
 // // Filter array
