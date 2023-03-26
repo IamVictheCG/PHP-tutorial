@@ -30,19 +30,19 @@
 // $arr4 = [...$arr1, ...$arr2]; // Use Spread
 // print_r($arr4);
 
-// Combine arrays (Keys & values)
+// Combine arrays (Keys & values);
 $a = ['green', 'red', 'yellow'];
 $b = ['avocado', 'apple', 'banana'];
 $c = array_combine($a, $b);
-print_r($c);
+// print_r($c);
 
 // Array of keys
-$keys = array_keys($c);
-print_r($keys);
+// $keys = array_keys($c);
+// print_r($keys);
 
-// // Flip keys with values
-// $flipped = array_flip($c);
-// var_dump($flipped);
+// Flip keys with values
+$flipped = array_flip($c);
+var_dump($flipped);
 
 // // Create array of numbers with range()
 // $numbers = range(1, 20);
