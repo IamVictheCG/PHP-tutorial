@@ -40,12 +40,12 @@ $c = array_combine($a, $b);
 // $keys = array_keys($c);
 // print_r($keys);
 
-// Flip keys with values
-$flipped = array_flip($c);
-var_dump($flipped);
+// // Flip keys with values
+// $flipped = array_flip($c);
+// var_dump($flipped);
 
-// // Create array of numbers with range()
-// $numbers = range(1, 20);
+// Create array of numbers with range()
+$numbers = range(1, 20);
 
 // // Map through array and create a new one
 // $newNumbers = array_map(function ($number) {
