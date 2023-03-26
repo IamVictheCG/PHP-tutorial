@@ -57,8 +57,8 @@ $numbers = range(1, 20);
 $greateThan10 = array_filter($numbers, fn($number) => $number >=10 && $number < 16);
 print_r($greateThan10);
 
-// // Array Reduce
-// // "carry" holds the return value of the previous iteration
-// $sum = array_reduce($numbers, fn($carry, $number) => $carry + $number);
-// var_dump($sum);
+// Array Reduce
+// "carry" holds the return value of the previous iteration
+$sum = array_reduce($numbers, fn($carry, $number) => $carry + $number);
+var_dump($sum);
 ?>
