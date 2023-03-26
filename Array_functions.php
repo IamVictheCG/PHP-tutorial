@@ -31,10 +31,10 @@
 // print_r($arr4);
 
 // Combine arrays (Keys & values)
-// $a = ['green', 'red', 'yellow'];
-// $b = ['avocado', 'apple', 'banana'];
-// $c = array_combine($a, $b);
-// print_r($c);
+$a = ['green', 'red', 'yellow'];
+$b = ['avocado', 'apple', 'banana'];
+$c = array_combine($a, $b);
+print_r($c);
 
 // Array of keys
 $keys = array_keys($c);
