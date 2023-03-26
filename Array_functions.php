@@ -44,13 +44,13 @@ $c = array_combine($a, $b);
 // $flipped = array_flip($c);
 // var_dump($flipped);
 
-// Create array of numbers with range()
-$numbers = range(1, 20);
+// // Create array of numbers with range()
+// $numbers = range(1, 20);
 
-// // Map through array and create a new one
-// $newNumbers = array_map(function ($number) {
-//   return "Number ${number}";
-// }, $numbers);
+// Map through array and create a new one
+$newNumbers = array_map(function ($number) {
+  return "Number ${number}";
+}, $numbers);
 
 // // Filter array
 // $lessThan10 = array_filter($numbers, fn($number) => $number < 10);
