@@ -44,16 +44,18 @@ $c = array_combine($a, $b);
 // $flipped = array_flip($c);
 // var_dump($flipped);
 
-// // Create array of numbers with range()
-// $numbers = range(1, 20);
+// Create array of numbers with range()
+$numbers = range(1, 20);
 
 // Map through array and create a new one
-$newNumbers = array_map(function ($number) {
-  return "Number $number";
-}, $numbers);
+// $newNumbers = array_map(function ($number) {
+//   return "Number $number";
+// }, $numbers);
+// print_r($newNumbers);
 
-// // Filter array
-// $lessThan10 = array_filter($numbers, fn($number) => $number < 10);
+// Filter array
+$greateThan10 = array_filter($numbers, fn($number) => $number >=10 && $number < 16);
+print_r($greateThan10);
 
 // // Array Reduce
 // // "carry" holds the return value of the previous iteration
