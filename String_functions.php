@@ -34,8 +34,8 @@ echo ucwords($string);
 echo str_replace('World', 'Everyone', $string);
 
 // // Return portion of a string specified by the offset and length
-// echo substr($string, 0, 5);
-// echo substr($string, 5);
+echo substr($string, 0, 5);
+echo substr($string, 5);
 
 // // Starts with
 // if (str_starts_with($string, 'Hello')) {
