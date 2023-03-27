@@ -33,19 +33,19 @@ echo ucwords($string);
 // String replace
 echo str_replace('World', 'Everyone', $string);
 
-// // Return portion of a string specified by the offset and length
+// Return portion of a string specified by the offset and length
 echo substr($string, 0, 5);
 echo substr($string, 5);
 
-// // Starts with
+// Starts with
 if (str_starts_with($string, 'Hello')) {
   echo 'YES';
 }
-// 
+
 // // Ends with
-// if (str_ends_with($string, 'ld')) {
-//   echo 'YES';
-// }
+if (str_ends_with($string, 'ld')) {
+  echo 'YES';
+}
 
 // // HTML Entities
 // $string2 = '<h1>Hello World</h1>';
