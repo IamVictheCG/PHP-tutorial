@@ -21,8 +21,8 @@ echo strrpos($string, 'o');
 // Reverse a string
 echo strrev($string);
 
-// // Convert all characters to lowercase
-// echo strtolower($string);
+// Convert all characters to lowercase
+echo strtolower($string);
 
 // // Convert all characters to uppercase
 // echo strtoupper($string);
