@@ -13,7 +13,7 @@ $string = 'Hello World';
 echo strlen($string);
 
 // // Find the position of the first occurrence of a substring in a string
-// echo strpos($string, 'o');
+echo strpos($string, 'o');
 
 // // Find the position of the last occurrence of a substring in a string
 // echo strrpos($string, 'o');
