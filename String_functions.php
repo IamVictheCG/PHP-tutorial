@@ -38,10 +38,10 @@ echo substr($string, 0, 5);
 echo substr($string, 5);
 
 // // Starts with
-// if (str_starts_with($string, 'Hello')) {
-//   echo 'YES';
-// }
-
+if (str_starts_with($string, 'Hello')) {
+  echo 'YES';
+}
+// 
 // // Ends with
 // if (str_ends_with($string, 'ld')) {
 //   echo 'YES';
