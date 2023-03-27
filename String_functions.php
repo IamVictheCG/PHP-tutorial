@@ -27,8 +27,8 @@ echo strtolower($string);
 // Convert all characters to uppercase
 echo strtoupper($string);
 
-// // Uppercase the first character of each word
-// echo ucwords($string);
+// Uppercase the first character of each word
+echo ucwords($string);
 
 // // String replace
 // echo str_replace('World', 'Everyone', $string);
