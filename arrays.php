@@ -14,6 +14,7 @@ $colors = [
     8 => "orange",
 ];
 echo $colors[6];
+
 $hex = [
     'red' => "#f00",
     'blue' => "#0f0",
