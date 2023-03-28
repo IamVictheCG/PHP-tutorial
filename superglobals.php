@@ -42,4 +42,3 @@
   </ul>
 </body>
 </html>
-Footer
